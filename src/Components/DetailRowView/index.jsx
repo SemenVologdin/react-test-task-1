@@ -1,8 +1,10 @@
 import React from 'react';
 
+import './style.css';
+
 const DetailRowView = ({ person }) => {
   return (
-    <div>
+    <div className="block-info">
       <h3>
         Выбран пользователь <b>{`${person.firstName} ${person.lastName}`}</b>
       </h3>

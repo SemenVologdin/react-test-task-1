@@ -1,0 +1,12 @@
+textarea {
+  width: 80%;
+  outline: none;
+  resize: none;
+  height: 200px;
+}
+
+.block-info {
+  width: 40%;
+
+  margin: 0 auto;
+}
